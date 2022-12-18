@@ -1,0 +1,14 @@
+D:\Project\C#\PhoenixDownloader\PhoenixDownloader\bin\Debug\PhoenixDownloader.exe.config
+D:\Project\C#\PhoenixDownloader\PhoenixDownloader\bin\Debug\PhoenixDownloader.exe
+D:\Project\C#\PhoenixDownloader\PhoenixDownloader\bin\Debug\PhoenixDownloader.pdb
+D:\Project\C#\PhoenixDownloader\PhoenixDownloader\obj\Debug\PhoenixDownloader.csprojAssemblyReference.cache
+D:\Project\C#\PhoenixDownloader\PhoenixDownloader\obj\Debug\PhoenixDownloader.Form1.resources
+D:\Project\C#\PhoenixDownloader\PhoenixDownloader\obj\Debug\PhoenixDownloader.Properties.Resources.resources
+D:\Project\C#\PhoenixDownloader\PhoenixDownloader\obj\Debug\PhoenixDownloader.csproj.GenerateResource.cache
+D:\Project\C#\PhoenixDownloader\PhoenixDownloader\obj\Debug\PhoenixDownloader.csproj.CoreCompileInputs.cache
+D:\Project\C#\PhoenixDownloader\PhoenixDownloader\obj\Debug\PhoenixDownloader.exe
+D:\Project\C#\PhoenixDownloader\PhoenixDownloader\obj\Debug\PhoenixDownloader.pdb
+D:\Project\C#\PhoenixDownloader\PhoenixDownloader\bin\Debug\AltoHttp.dll
+D:\Project\C#\PhoenixDownloader\PhoenixDownloader\bin\Debug\Newtonsoft.Json.dll
+D:\Project\C#\PhoenixDownloader\PhoenixDownloader\bin\Debug\Newtonsoft.Json.xml
+D:\Project\C#\PhoenixDownloader\PhoenixDownloader\obj\Debug\PhoenixDownloader.csproj.CopyComplete
