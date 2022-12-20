@@ -189,6 +189,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label downloadedLbl;
         private System.Windows.Forms.Label speedLbl;
+        private System.Windows.Forms.Button fileOpenBtn;
     }
 }
 
