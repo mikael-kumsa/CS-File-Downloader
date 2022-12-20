@@ -44,12 +44,18 @@ namespace PhoenixDownloader
             {
                 statusLbl.Text = "Download Completed!";
                 percentLbl.Text = "100%";
+                if (statusLbl.Text == "Download Completed!")
+                {
+                    openFolderBtn.Visible = true;
+                    Application.DoEvents();
+                }
             });
+            
         }
 
         private void PauseBtn_Click(object sender, EventArgs e)
         {
-            if(httpDownloader != null)
+            if (httpDownloader != null)
             {
                 httpDownloader.Pause();
             }
@@ -62,5 +68,12 @@ namespace PhoenixDownloader
                 httpDownloader.Resume();
             }
         }
+
+        private void OpenFolderBtn_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("explorer.exe", string.Format("/select, \"{0}\"", $"{Application.StartupPath}\\{Path.GetFileName(urlTxtbox.Text)}"));
+        }
+
     }
 }
+

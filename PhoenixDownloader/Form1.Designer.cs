@@ -40,6 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.downloadedLbl = new System.Windows.Forms.Label();
             this.speedLbl = new System.Windows.Forms.Label();
+            this.openFolderBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // urlTxtbox
@@ -149,11 +150,24 @@
             this.speedLbl.TabIndex = 1;
             this.speedLbl.Text = "0 MB/s";
             // 
+            // openFolderBtn
+            // 
+            this.openFolderBtn.Location = new System.Drawing.Point(402, 182);
+            this.openFolderBtn.Name = "openFolderBtn";
+            this.openFolderBtn.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.openFolderBtn.Size = new System.Drawing.Size(75, 23);
+            this.openFolderBtn.TabIndex = 4;
+            this.openFolderBtn.Text = "Open Folder";
+            this.openFolderBtn.UseVisualStyleBackColor = true;
+            this.openFolderBtn.Visible = false;
+            this.openFolderBtn.Click += new System.EventHandler(this.OpenFolderBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(492, 206);
+            this.ClientSize = new System.Drawing.Size(510, 220);
+            this.Controls.Add(this.openFolderBtn);
             this.Controls.Add(this.startBtn);
             this.Controls.Add(this.pauseBtn);
             this.Controls.Add(this.resumeBtn);
@@ -189,7 +203,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label downloadedLbl;
         private System.Windows.Forms.Label speedLbl;
-        private System.Windows.Forms.Button fileOpenBtn;
+        private System.Windows.Forms.Button openFolderBtn;
     }
 }
 
