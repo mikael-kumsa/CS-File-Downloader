@@ -45,32 +45,32 @@
             // 
             // urlTxtbox
             // 
-            this.urlTxtbox.Location = new System.Drawing.Point(102, 37);
+            this.urlTxtbox.Location = new System.Drawing.Point(119, 37);
             this.urlTxtbox.Name = "urlTxtbox";
-            this.urlTxtbox.Size = new System.Drawing.Size(379, 20);
+            this.urlTxtbox.Size = new System.Drawing.Size(441, 20);
             this.urlTxtbox.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(50, 40);
+            this.label1.Location = new System.Drawing.Point(58, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 13);
+            this.label1.Size = new System.Drawing.Size(32, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "URL";
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(102, 94);
+            this.progressBar.Location = new System.Drawing.Point(119, 94);
             this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(379, 23);
+            this.progressBar.Size = new System.Drawing.Size(442, 23);
             this.progressBar.TabIndex = 2;
             // 
             // resumeBtn
             // 
-            this.resumeBtn.Location = new System.Drawing.Point(402, 152);
+            this.resumeBtn.Location = new System.Drawing.Point(469, 152);
             this.resumeBtn.Name = "resumeBtn";
-            this.resumeBtn.Size = new System.Drawing.Size(75, 23);
+            this.resumeBtn.Size = new System.Drawing.Size(87, 23);
             this.resumeBtn.TabIndex = 3;
             this.resumeBtn.Text = "&Resume";
             this.resumeBtn.UseVisualStyleBackColor = true;
@@ -79,35 +79,35 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 73);
+            this.label2.Location = new System.Drawing.Point(49, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 13);
+            this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Status";
             // 
             // statusLbl
             // 
             this.statusLbl.AutoSize = true;
-            this.statusLbl.Location = new System.Drawing.Point(99, 73);
+            this.statusLbl.Location = new System.Drawing.Point(115, 73);
             this.statusLbl.Name = "statusLbl";
-            this.statusLbl.Size = new System.Drawing.Size(25, 13);
+            this.statusLbl.Size = new System.Drawing.Size(28, 13);
             this.statusLbl.TabIndex = 1;
             this.statusLbl.Text = "???";
             // 
             // percentLbl
             // 
             this.percentLbl.AutoSize = true;
-            this.percentLbl.Location = new System.Drawing.Point(456, 77);
+            this.percentLbl.Location = new System.Drawing.Point(532, 77);
             this.percentLbl.Name = "percentLbl";
-            this.percentLbl.Size = new System.Drawing.Size(21, 13);
+            this.percentLbl.Size = new System.Drawing.Size(23, 13);
             this.percentLbl.TabIndex = 1;
             this.percentLbl.Text = "0%";
             // 
             // pauseBtn
             // 
-            this.pauseBtn.Location = new System.Drawing.Point(307, 152);
+            this.pauseBtn.Location = new System.Drawing.Point(358, 152);
             this.pauseBtn.Name = "pauseBtn";
-            this.pauseBtn.Size = new System.Drawing.Size(75, 23);
+            this.pauseBtn.Size = new System.Drawing.Size(87, 23);
             this.pauseBtn.TabIndex = 3;
             this.pauseBtn.Text = "&Pause";
             this.pauseBtn.UseVisualStyleBackColor = true;
@@ -115,9 +115,9 @@
             // 
             // startBtn
             // 
-            this.startBtn.Location = new System.Drawing.Point(207, 152);
+            this.startBtn.Location = new System.Drawing.Point(241, 152);
             this.startBtn.Name = "startBtn";
-            this.startBtn.Size = new System.Drawing.Size(75, 23);
+            this.startBtn.Size = new System.Drawing.Size(87, 23);
             this.startBtn.TabIndex = 3;
             this.startBtn.Text = "&Start";
             this.startBtn.UseVisualStyleBackColor = true;
@@ -126,36 +126,36 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 180);
+            this.label3.Location = new System.Drawing.Point(14, 180);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 13);
+            this.label3.Size = new System.Drawing.Size(77, 13);
             this.label3.TabIndex = 1;
             this.label3.Text = "Downloaded";
             // 
             // downloadedLbl
             // 
             this.downloadedLbl.AutoSize = true;
-            this.downloadedLbl.Location = new System.Drawing.Point(99, 180);
+            this.downloadedLbl.Location = new System.Drawing.Point(115, 180);
             this.downloadedLbl.Name = "downloadedLbl";
-            this.downloadedLbl.Size = new System.Drawing.Size(32, 13);
+            this.downloadedLbl.Size = new System.Drawing.Size(36, 13);
             this.downloadedLbl.TabIndex = 1;
             this.downloadedLbl.Text = "0 MB";
             // 
             // speedLbl
             // 
             this.speedLbl.AutoSize = true;
-            this.speedLbl.Location = new System.Drawing.Point(99, 131);
+            this.speedLbl.Location = new System.Drawing.Point(115, 131);
             this.speedLbl.Name = "speedLbl";
-            this.speedLbl.Size = new System.Drawing.Size(42, 13);
+            this.speedLbl.Size = new System.Drawing.Size(48, 13);
             this.speedLbl.TabIndex = 1;
             this.speedLbl.Text = "0 MB/s";
             // 
             // openFolderBtn
             // 
-            this.openFolderBtn.Location = new System.Drawing.Point(402, 182);
+            this.openFolderBtn.Location = new System.Drawing.Point(469, 182);
             this.openFolderBtn.Name = "openFolderBtn";
             this.openFolderBtn.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.openFolderBtn.Size = new System.Drawing.Size(75, 23);
+            this.openFolderBtn.Size = new System.Drawing.Size(87, 23);
             this.openFolderBtn.TabIndex = 4;
             this.openFolderBtn.Text = "Open Folder";
             this.openFolderBtn.UseVisualStyleBackColor = true;
@@ -164,9 +164,10 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 220);
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(605, 220);
             this.Controls.Add(this.openFolderBtn);
             this.Controls.Add(this.startBtn);
             this.Controls.Add(this.pauseBtn);
@@ -180,10 +181,14 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.urlTxtbox);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.Highlight;
             this.MaximizeBox = false;
             this.Name = "Form1";
+            this.Opacity = 0.96D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Phoenix Downloader";
+            this.TransparencyKey = System.Drawing.Color.Transparent;
             this.ResumeLayout(false);
             this.PerformLayout();
 
