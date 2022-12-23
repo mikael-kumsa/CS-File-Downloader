@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\packages",
     "\\PhoenixDownloader",
-    "\\PhoenixDownloader\\bin",
     "\\PhoenixDownloader\\obj"
   ],
-  "SelectedNode": "\\PhoenixDownloader\\Form1.Designer.cs",
+  "SelectedNode": "\\PhoenixDownloader",
   "PreviewInSolutionExplorer": false
 }

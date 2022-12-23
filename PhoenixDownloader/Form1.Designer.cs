@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.urlTxtbox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.resumeBtn = new System.Windows.Forms.Button();
@@ -41,14 +40,8 @@
             this.downloadedLbl = new System.Windows.Forms.Label();
             this.speedLbl = new System.Windows.Forms.Label();
             this.openFolderBtn = new System.Windows.Forms.Button();
+            this.urlTxtbox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // urlTxtbox
-            // 
-            this.urlTxtbox.Location = new System.Drawing.Point(119, 37);
-            this.urlTxtbox.Name = "urlTxtbox";
-            this.urlTxtbox.Size = new System.Drawing.Size(441, 20);
-            this.urlTxtbox.TabIndex = 0;
             // 
             // label1
             // 
@@ -162,12 +155,22 @@
             this.openFolderBtn.Visible = false;
             this.openFolderBtn.Click += new System.EventHandler(this.OpenFolderBtn_Click);
             // 
+            // urlTxtbox
+            // 
+            this.urlTxtbox.BackColor = System.Drawing.Color.LightGray;
+            this.urlTxtbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.urlTxtbox.Location = new System.Drawing.Point(119, 37);
+            this.urlTxtbox.Name = "urlTxtbox";
+            this.urlTxtbox.Size = new System.Drawing.Size(442, 20);
+            this.urlTxtbox.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(605, 220);
+            this.Controls.Add(this.urlTxtbox);
             this.Controls.Add(this.openFolderBtn);
             this.Controls.Add(this.startBtn);
             this.Controls.Add(this.pauseBtn);
@@ -180,23 +183,19 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.urlTxtbox);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.Highlight;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Opacity = 0.96D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Phoenix Downloader";
-            this.TransparencyKey = System.Drawing.Color.Transparent;
+            this.TransparencyKey = System.Drawing.Color.White;
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox urlTxtbox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ProgressBar progressBar;
         private System.Windows.Forms.Button resumeBtn;
@@ -209,6 +208,7 @@
         private System.Windows.Forms.Label downloadedLbl;
         private System.Windows.Forms.Label speedLbl;
         private System.Windows.Forms.Button openFolderBtn;
+        private System.Windows.Forms.TextBox urlTxtbox;
     }
 }
 

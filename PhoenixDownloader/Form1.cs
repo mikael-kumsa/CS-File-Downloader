@@ -22,7 +22,7 @@ namespace PhoenixDownloader
         HttpDownloader httpDownloader;
         private void StartBtn_Click(object sender, EventArgs e)
         {
-            httpDownloader = new HttpDownloader(urlTxtbox.Text, $"{Application.StartupPath}\\{Path.GetFileName(urlTxtbox.Text)}");
+            httpDownloader = new HttpDownloader(urlTxtbox.Text, $"{Application.StartupPath}\\'Downloads'\\{Path.GetFileName(urlTxtbox.Text)}");
             httpDownloader.DownloadCompleted += HttpDownloader_DownloadCompleted;
             httpDownloader.ProgressChanged += HttpDownloader_ProgressChanged;
             httpDownloader.Start();
