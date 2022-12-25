@@ -74,6 +74,15 @@ namespace PhoenixDownloader
             System.Diagnostics.Process.Start("explorer.exe", string.Format("/select, \"{0}\"", $"{Application.StartupPath}\\{Path.GetFileName(urlTxtbox.Text)}"));
         }
 
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void MinimizeButton_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
     }
 }
 
